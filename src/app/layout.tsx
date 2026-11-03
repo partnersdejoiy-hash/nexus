@@ -4,6 +4,13 @@ import './globals.css';
 export const metadata: Metadata = {
   title: 'NEXUS — Spatial Computing OS',
   description: 'Production-quality futuristic spatial computing web operating system built with Next.js 15, React Three Fiber, MediaPipe & Gemini AI.',
+  icons: {
+    icon: [
+      { url: '/favicon.svg', type: 'image/svg+xml' },
+      { url: '/favicon-32.png', sizes: '32x32', type: 'image/png' },
+    ],
+    apple: '/apple-touch-icon.png',
+  },
 };
 
 export default function RootLayout({

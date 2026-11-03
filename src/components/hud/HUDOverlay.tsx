@@ -62,7 +62,8 @@ export const HUDOverlay: React.FC = () => {
               <span className="absolute inline-flex h-full w-full animate-ping rounded-full bg-cyan-400 opacity-75"></span>
               <span className="relative inline-flex h-2 w-2 rounded-full bg-cyan-500"></span>
             </span>
-            <span className="font-bold text-white tracking-widest">NEXUS OS 1.0</span>
+            <img src="/brand/d-nexus-on-dark.svg" alt=":D Nexus" className="h-4 w-auto" />
+            <span className="font-bold text-white tracking-widest">OS 1.0</span>
             <span className="rounded bg-cyan-950/80 px-1.5 py-0.5 text-[10px] text-cyan-400 border border-cyan-800">
               {formMode}
             </span>
